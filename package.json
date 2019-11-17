@@ -1,0 +1,26 @@
+{
+  "name": "crawling-verify",
+  "version": "1.0.0",
+  "description": "to verify your link box, and output with  markdown",
+  "scripts": {
+    "test": "node ./cli.js -i \"./res/test/test.txt\" -o \"./res/test/test.md\" -t \"【搜索引擎】\"",
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "cli",
+    "spider"
+  ],
+  "author": "sailhe",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "async": "^3.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^4.0.1",
+    "iconv-lite": "^0.5.0",
+    "phantom": "^6.3.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
