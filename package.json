@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "to verify your link box, and output with  markdown",
   "scripts": {
-    "test": "node ./cli.js -i \"./res/test/test.txt\" -o \"./res/test/test.md\" -t \"【搜索引擎】\"",
+    "test": "node ./cli.js -i \"./res/test/test.txt\" -o \"./res/test/test.md\" -t \"【搜索引擎】\" -p \"http://localhost:8118\"",
     "start": "node ./index.js"
   },
   "keywords": [
